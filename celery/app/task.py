@@ -508,7 +508,7 @@ class Task:
             headers (Dict): Message headers to be included in the message.
 
         Returns:
-            ~@AsyncResult: Promise of future evaluation.
+            celery.result.AsyncResult: Promise of future evaluation.
 
         Raises:
             TypeError: If not enough arguments are passed, or too many
